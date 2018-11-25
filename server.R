@@ -84,7 +84,7 @@ function(input, output, session) {
         valueBox(
             value = paste0(res, "%"),
             "Proportion with clinically manifest disease missed by screening",
-#            icon = icon("frown-o"),
+            icon = icon("frown-o"),
             color="purple"
         )
     })
